@@ -174,6 +174,7 @@ static const struct fs_path_config android_files[] = {
     { 00600, AID_ROOT,      AID_ROOT,      0, "system/vendor/default.prop" },
     { 00444, AID_ROOT,      AID_ROOT,      0, "system/vendor/etc/fs_config_dirs" },
     { 00444, AID_ROOT,      AID_ROOT,      0, "system/vendor/etc/fs_config_files" },
+    { 00755, AID_ROOT,      AID_ROOT,      0, "system/addon.d/*" },
     { 00600, AID_ROOT,      AID_ROOT,      0, "vendor/build.prop" },
     { 00600, AID_ROOT,      AID_ROOT,      0, "vendor/default.prop" },
     { 00444, AID_ROOT,      AID_ROOT,      0, ven_conf_dir + 1 },
